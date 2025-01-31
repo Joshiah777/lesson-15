@@ -1,10 +1,17 @@
-age=input("What is your age:")
-if age>=10:
+
+age=int(input("Enter your age:"))
+if age<=10:
     print("You are a child.")
+elif age<=20:
+    print("You are a teenager.")
 else:
-    if age>=18:
-        print("You are a teenager.") 
-    else:
-        print("You are a mature adult.")
+    print("You are an adult.")    
+
+
+    
+    
+      
+    
+        
 
     
